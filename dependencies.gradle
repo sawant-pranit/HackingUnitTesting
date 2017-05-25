@@ -1,0 +1,10 @@
+ext {
+    supportLibraryVersion = '25.3.1'
+    espressoVersion = '2.2.2'
+
+    dependencies = [
+            appCompat   : "com.android.support:appcompat-v7:$supportLibraryVersion",
+            espressoCore: "com.android.support.test.espresso:espresso-core:$espressoVersion",
+            jUnit       : 'junit:junit:4.12'
+    ]
+}
