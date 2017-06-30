@@ -5,6 +5,7 @@ ext {
     dependencies = [
             appCompat   : "com.android.support:appcompat-v7:$supportLibraryVersion",
             espressoCore: "com.android.support.test.espresso:espresso-core:$espressoVersion",
-            jUnit       : 'junit:junit:4.12'
+            jUnit       : 'junit:junit:4.12',
+            mockito     : 'org.mockito:mockito-core:2.8.47'
     ]
 }
