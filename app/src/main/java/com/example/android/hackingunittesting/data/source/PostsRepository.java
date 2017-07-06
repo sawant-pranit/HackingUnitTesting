@@ -1,5 +1,7 @@
 package com.example.android.hackingunittesting.data.source;
 
+import com.example.android.hackingunittesting.data.Post;
+
 /**
  * Created by pranit on 1/7/17.
  */
@@ -27,8 +29,8 @@ public class PostsRepository implements PostsDataSource{
         sInstance = null;
     }
 
-    public void getPost(int post){
-
+    public Post getPost(int post){
+        return null;
     }
 
 }
