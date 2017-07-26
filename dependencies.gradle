@@ -1,11 +1,16 @@
 ext {
     supportLibraryVersion = '25.3.1'
     espressoVersion = '2.2.2'
+    androidRunnerAndRules = '0.5'
 
     dependencies = [
             appCompat   : "com.android.support:appcompat-v7:$supportLibraryVersion",
             espressoCore: "com.android.support.test.espresso:espresso-core:$espressoVersion",
             jUnit       : 'junit:junit:4.12',
-            mockito     : 'org.mockito:mockito-core:2.8.47'
+            mockito     : 'org.mockito:mockito-core:2.8.47',
+            espressoIntents : "com.android.support.test.espresso:espresso-intents:$espressoVersion",
+            espressoWeb: "com.android.support.test.espresso:espresso-web:$espressoVersion",
+            testRules: "com.android.support.test:rules:$androidRunnerAndRules",
+            testRunner: "com.android.support.test:runner:$androidRunnerAndRules"
     ]
 }
