@@ -1,11 +1,16 @@
 ext {
     supportLibraryVersion = '25.3.1'
     espressoVersion = '2.2.2'
+    dagger = '2.11'
 
     dependencies = [
-            appCompat   : "com.android.support:appcompat-v7:$supportLibraryVersion",
-            espressoCore: "com.android.support.test.espresso:espresso-core:$espressoVersion",
-            jUnit       : 'junit:junit:4.12',
-            mockito     : 'org.mockito:mockito-core:2.8.47'
+            appCompat             : "com.android.support:appcompat-v7:$supportLibraryVersion",
+            espressoCore          : "com.android.support.test.espresso:espresso-core:$espressoVersion",
+            jUnit                 : 'junit:junit:4.12',
+            mockito               : 'org.mockito:mockito-core:2.8.47',
+            dagger                : "com.google.dagger:dagger:$dagger",
+            daggerAndroid         : "com.google.dagger:dagger-android:$dagger",
+            daggerAndroidProcessor: "com.google.dagger:dagger-android-processor:$dagger",
+            daggerCompiler        : "com.google.dagger:dagger-compiler:$dagger"
     ]
 }
