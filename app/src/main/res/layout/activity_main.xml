@@ -8,6 +8,7 @@
     tools:context="com.example.android.hackingunittesting.MainActivity">
 
     <TextView
+        android:id="@+id/target"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
@@ -16,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:progressDrawable="@drawable/background_seekbar"
+        android:layout_below="@id/target"
         android:thumb="@mipmap/ic_launcher"/>
 
 </RelativeLayout>

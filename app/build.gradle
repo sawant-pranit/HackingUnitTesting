@@ -29,8 +29,8 @@ dependencies {
     // App's dependencies
     compile dependencies.appCompat
     compile dependencies.dagger
-    // compile dependencies.daggerAndroid
-    // annotationProcessor dependencies.daggerAndroidProcessor
+    compile dependencies.daggerAndroid
+    annotationProcessor dependencies.daggerAndroidProcessor
     annotationProcessor dependencies.daggerCompiler
 
     // Test dependencies
