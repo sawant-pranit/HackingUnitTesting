@@ -24,7 +24,7 @@ public class MainActivityTest {
     public ActivityTestRule<MainActivity> mTestRule = new ActivityTestRule<>(MainActivity.class, true, true);
 
     @Test
-    public void testTextViewText(){
+    public void testTextViewText() {
         onView(withText("Hello World!")).check(matches(isDisplayed()));
     }
 
